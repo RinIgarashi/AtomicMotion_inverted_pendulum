@@ -19,7 +19,7 @@ M5Stackの
 ### Teleplotによるデータの可視化
 
 画面右上の ```Import layout``` から以下のjsonファイルを読み込むと同じ表示になる。\
-[Teleplot テンプレート](teleplot\template.json)
+[Teleplot テンプレート](teleplot/template.json)
 
 <img src="images/teleplot.png" width="100%">
 
