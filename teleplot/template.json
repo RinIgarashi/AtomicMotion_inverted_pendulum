@@ -1,0 +1,197 @@
+{
+   "widgets": [
+      {
+         "type": "widget3D",
+         "gridPos": {
+            "h": 13,
+            "w": 5,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "attitude",
+               "sourceNames": [
+                  "attitude"
+               ],
+               "formula": "",
+               "options": {},
+               "type": "3D"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 7,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "roll",
+               "sourceNames": [
+                  "roll"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "roll",
+                  "_id": "data-serie-7",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 7,
+            "w": 7,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "U",
+               "sourceNames": [
+                  "U"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "U",
+                  "_id": "data-serie-17",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "single_value_number",
+         "gridPos": {
+            "h": 3,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Kp",
+               "sourceNames": [
+                  "Kp"
+               ],
+               "formula": "",
+               "options": {
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ],
+         "precision_mode": 0
+      },
+      {
+         "type": "single_value_number",
+         "gridPos": {
+            "h": 3,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Ki",
+               "sourceNames": [
+                  "Ki"
+               ],
+               "formula": "",
+               "options": {
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ],
+         "precision_mode": 0
+      },
+      {
+         "type": "single_value_number",
+         "gridPos": {
+            "h": 3,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Kd",
+               "sourceNames": [
+                  "Kd"
+               ],
+               "formula": "",
+               "options": {
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ],
+         "precision_mode": 0
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "dt",
+               "sourceNames": [
+                  "dt"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "dt",
+                  "_id": "data-serie-20",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "targetAngle",
+               "sourceNames": [
+                  "targetAngle"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "targetAngle",
+                  "_id": "data-serie-23",
+                  "stroke": "rgba(155,89,182,1)",
+                  "fill": "rgba(155,89,182,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": 15
+}
